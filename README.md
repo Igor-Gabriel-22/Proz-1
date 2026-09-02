@@ -95,4 +95,32 @@ return "Resultados de $this->soma, $this->subtracao, $this->multiplicacao, $this
 
 }
 
+EXERCÍCIO 5
+
+<?php
+
+class Livro {
+    public $titulo;
+    public $autor;
+    public $paginas;
+
+    public function __construct($titulo, $autor, $paginas) {
+        $this->titulo = $titulo;
+        $this->autor = $autor;
+        $this->paginas = $paginas;
+    }
+}
+
+$livro1 = new Livro("O Alquimista", "Paulo Coelho", 172);
+$livro2 = new Livro("Dom Casmurro", "Machado de Assis", 256);
+
+echo "Livro 1:\n";
+echo "Título: " . $livro1->titulo . "\n";
+echo "Autor: " . $livro1->autor . "\n";
+echo "Páginas: " . $livro1->paginas . "\n\n";
+
+echo "Livro 2:\n";
+echo "Título: " . $livro2->titulo . "\n";
+echo "Autor: " . $livro2->autor . "\n";
+echo "Páginas: " . $livro2->paginas . "\n";
 
