@@ -62,4 +62,37 @@ class pix extends metodopagamento {
     }
 }
 
+EXERCÍCIO 4
+
+class Calculadora {
+
+public $soma;
+
+public $subtracao;
+
+public $multiplicacao;
+
+public $divisao;
+
+public function _ construct($soma, $subtraçao, $multiplicacao, $divisao) {
+
+$this->soma = $soma;
+
+$this->subtracao = $subtracao;
+
+$this->multiplicacao = $multiplicacao;
+
+$this->divisao = $divisao
+
+}
+
+
+
+public function calculos(): string {
+
+return "Resultados de $this->soma, $this->subtracao, $this->multiplicacao, $this->divisao sao os resultados."
+}
+
+}
+
 
